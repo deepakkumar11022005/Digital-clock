@@ -1,0 +1,76 @@
+.container{
+ 
+    height: 100%;
+    width: 100%;
+background-color: aliceblue;
+border: 2px solid transparent;
+text-align: center;
+font-weight: bolder;
+font-size: 2em;
+color: burlywood;
+background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+}
+h1{
+    color: aliceblue;
+  position: relative;
+  left: 28%;
+  margin-top: -100px;
+  font-size: 45px;
+  font-family:cursive;
+}
+.main{
+    z-index: -2;
+    height: 300px;
+    width: 60%;
+    position: relative;
+    left: -10%;
+    font-family:cursive ;
+}
+body{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    margin-top: 20px;
+    font-size:1.2em ;
+    margin-bottom: 50px;
+    font-family: orbitron;
+}
+ #day{
+    color: rgb(168, 195, 218);
+ }
+#ampm{
+    font-size: 25px;
+}
+.upper_round,.lower_round{
+    height: 200px;
+    width: 200px;
+    border: 2px solid tranparent;
+    background-color: aliceblue;
+     border-radius: 50%;
+}
+ .upper_round{
+    background-color:deeppink;
+    position: relative;
+    left: 87%;
+    top: -130%;
+    z-index: -1; 
+    
+
+ }
+ .lower_round{
+    position: relative;
+    left: -100px;
+    top: 400px;
+    background-color: blue;
+ 
+ }
